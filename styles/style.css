@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    margin: 50px 0 30px 0;
+}
+
+.header__logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 79px;
+}
+
+.header__ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header__link{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #8C8A8A;
+    transition: .2s;
+}
+
+.header__link:hover{
+    color: #a45404;
+}
+
+.about{
+    margin-bottom: 30px;
+}
+
+.about__content{
+    height: 450px;
+    margin-bottom: 30px;
+}
+
+.about__img{
+    width: 100%;
+    height: 100%;
+}
+
+.about__block{
+    display: flex;
+    gap: 30px;
+}
+
+.about__box1{
+    width: 730px;
+    background: #F0F0F0;
+}
+
+.about__box2{
+    width: 350px;
+    background: #F0F0F0;
+}
+
+.about__title{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #4581B7;
+    margin: 50px 0 0 40px;
+}
+
+.about__text1{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+    margin: 25px 95px 51px 40px;
+}
+
+.about__call{
+    margin: 25px 24px 0 40px;
+}
+
+.about__box3{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.about__text2{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F0F0F0;
+    padding: 15px 40px;
+}
+
+.content__box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content__text{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+}
+
+.content__number{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #808080;
+    text-align: right;
+}
